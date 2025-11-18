@@ -10,7 +10,7 @@ terraform {
     bucket = "mahaboob-remote-state"
     key    = "vpc"
     region = "us-east-1"
-    dynamodb_table = "daws76s-locking"
+    dynamodb_table = "mahaboob-locking"
   }
 }
 
